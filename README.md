@@ -46,6 +46,10 @@
 - 자동차의 이름을 입력할 수 있다.
 - 시도 할 횟수를 입력할 수 있다.
 
+### TryNumber
+- 시도 횟수를 필드로 가진다.
+- 이제 대한 값을 검증하여 에러 메시지 출력
+
 
 ### OutputUtils
 - 사용자에게 입력메시지 관련한 내용을 출력할 수 있다.
@@ -61,5 +65,6 @@
       - CarMoveCondition 구현
 - [X] Cars 구현
 - [X] OutputUtils 구현
-- [ ] InputUtils 구현
+- [X] InputUtils 구현
+      - TryNumber 구현
 - [ ] GameController 구현
