@@ -38,7 +38,7 @@
 - 입력된 값이 4 이상일 경우, Position에 값을 추가하고, 3이하인 경우 추가하지 않는다.
 
 #### Cars
-- 자동차들의 이름과 위치 값으로 현재 상황을 출력할 수 있다.
+- 자동차들의 이름과 위치 값의 현재 상황을 출력할 수 있다.
 - 자동차들의 우승 이동 횟수를 구할 수 있다.
 - 게임이 완료 된 후 누가 우승했는지 출력한다.
 
@@ -59,7 +59,7 @@
       - Position 구현
       - CarStatus 구현
       - CarMoveCondition 구현
-- [ ] Cars 구현
-- [ ] InputUtils 구현
+- [X] Cars 구현
 - [ ] OutputUtils 구현
+- [ ] InputUtils 구현
 - [ ] GameController 구현

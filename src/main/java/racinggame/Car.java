@@ -1,6 +1,6 @@
 package racinggame;
 
-public class Car {
+public class Car implements Comparable<Car> {
 
     private final CarName carName;
     private final Position position;
@@ -20,5 +20,10 @@ public class Car {
 
     public void play(CarStatus move) {
         if(move == CarStatus.MOVE) position.addPosition();
+    }
+
+    @Override
+    public int compareTo(Car o) {
+        return this.position.getValue() - o.getPosition().getValue();
     }
 }

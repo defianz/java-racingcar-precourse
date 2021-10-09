@@ -20,7 +20,7 @@ public class CarTest {
 
     @Test
     public void 자동차전진_성공() throws Exception {
-        // given
+        //given
         String name = "안녕하세요";
         //when
         Car car = new Car(name);
@@ -31,7 +31,7 @@ public class CarTest {
 
     @Test
     public void 자동차전진_실패() throws Exception {
-        // given
+        //given
         String name = "안녕하세요";
         //when
         Car car = new Car(name);

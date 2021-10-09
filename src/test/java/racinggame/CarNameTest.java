@@ -8,12 +8,10 @@ public class CarNameTest {
 
     @Test
     public void 이름_5자이하_입력_성공() {
-        // given
+        //given
         String name = "안녕하세요";
-
         //when
         CarName carName = new CarName(name);
-
         //then
         assertThat(carName.getName()).isEqualTo(name);
     }
@@ -21,7 +19,7 @@ public class CarNameTest {
     @Test
     public void 이름_5자초과_입력_실패() throws Exception {
         assertThatIllegalArgumentException().isThrownBy(() -> {
-                    // given
+                    //given
                     String name = "안녕하세요6자";
                     //when
                     CarName carName = new CarName(name);
