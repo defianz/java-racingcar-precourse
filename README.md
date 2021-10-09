@@ -60,6 +60,6 @@
       - CarStatus 구현
       - CarMoveCondition 구현
 - [X] Cars 구현
-- [ ] OutputUtils 구현
+- [X] OutputUtils 구현
 - [ ] InputUtils 구현
 - [ ] GameController 구현

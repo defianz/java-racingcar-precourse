@@ -34,20 +34,9 @@ public class Cars {
 
     public void printResult() {
         for (Car car : carList) {
-            printCarName(car);
-            printCarPosition(car);
+            OutputUtils.printCarName(car);
+            OutputUtils.printCarPosition(car);
         }
         System.out.println();
-    }
-
-    private void printCarPosition(Car car) {
-        for (int i = 0; i < car.getPosition().getValue(); i++) {
-            System.out.print("-");
-        }
-        System.out.println();
-    }
-
-    private void printCarName(Car car) {
-        System.out.print(car.getCarName().getName() + " : ");
     }
 }

@@ -24,6 +24,6 @@ public class CarNameTest {
                     //when
                     CarName carName = new CarName(name);
                 }
-        ).withMessage(Message.carNameErrorMessage);
+        ).withMessage(Message.errorCarNameMessage);
     }
 }
