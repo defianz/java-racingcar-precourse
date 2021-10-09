@@ -4,7 +4,7 @@ import java.util.List;
 
 public class OutputUtils {
 
-    public static void InputRequest() {
+    public static void inputCarName() {
         System.out.println(Message.inputCarNameReqeustMessage);
     }
 
@@ -43,5 +43,13 @@ public class OutputUtils {
         }
         sb.deleteCharAt(sb.length());
         return sb.toString();
+    }
+
+    public static void printLine() {
+        System.out.println();
+    }
+
+    public static void printString(String s) {
+        System.out.println(s);
     }
 }

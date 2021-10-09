@@ -15,7 +15,7 @@ public class CarsTest {
         Car car1 = new Car("Car1");
         Car car2 = new Car("Car2");
         Car car3 = new Car("Car3");
-        List<Car> carList = asList(car1,car2,car3);
+        List<Car> carList = asList(car1, car2, car3);
         //when
         Cars cars = new Cars(carList);
         cars.play();
@@ -28,7 +28,7 @@ public class CarsTest {
         //given
         Car car1 = new Car("Car1");
         Car car2 = new Car("Car2");
-        List<Car> carList = asList(car1,car2);
+        List<Car> carList = asList(car1, car2);
         //when
         Cars cars = new Cars(carList);
         cars.play();

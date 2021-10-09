@@ -42,19 +42,22 @@
 - 자동차들의 우승 이동 횟수를 구할 수 있다.
 - 게임이 완료 된 후 누가 우승했는지 출력한다.
 
-### InputUtils
+#### InputUtils
 - 자동차의 이름을 입력할 수 있다.
 - 시도 할 횟수를 입력할 수 있다.
 
-### TryNumber
+#### TryNumber
 - 시도 횟수를 필드로 가진다.
 - 이제 대한 값을 검증하여 에러 메시지 출력
 
 
-### OutputUtils
+#### OutputUtils
 - 사용자에게 입력메시지 관련한 내용을 출력할 수 있다.
 - 실행결과를 출력할 수 있다. (자동차 이름, 위치)
 - 최종 우승자를 출력할 수 있다.
+
+#### GameResult
+- Winners 포함
 
 
 ## 구현 기능 목록
@@ -67,4 +70,4 @@
 - [X] OutputUtils 구현
 - [X] InputUtils 구현
       - TryNumber 구현
-- [ ] GameController 구현
+- [X] GameController 구현

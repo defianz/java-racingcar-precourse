@@ -11,6 +11,10 @@ public class TryNumber {
 
     private void validateTryNumber(String tryNumber) {
         String REGEX = "^[0-9]*$";
-        if(!tryNumber.matches(REGEX)) new IllegalArgumentException(Message.errorTryNumberMessage);
+        if (!tryNumber.matches(REGEX)) new IllegalArgumentException(Message.errorTryNumberMessage);
+    }
+
+    public int getTryNumber() {
+        return tryNumber;
     }
 }

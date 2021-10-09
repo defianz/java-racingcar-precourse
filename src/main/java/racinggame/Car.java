@@ -19,7 +19,7 @@ public class Car implements Comparable<Car> {
     }
 
     public void play(CarStatus move) {
-        if(move == CarStatus.MOVE) position.addPosition();
+        if (move == CarStatus.MOVE) position.addPosition();
     }
 
     @Override

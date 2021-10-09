@@ -37,6 +37,6 @@ public class Cars {
             OutputUtils.printCarName(car);
             OutputUtils.printCarPosition(car);
         }
-        System.out.println();
+        OutputUtils.printLine();
     }
 }
