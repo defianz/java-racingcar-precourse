@@ -12,12 +12,24 @@
 #### GameController
 - 게임 과정이 순서대로 실행된다.
 
+#### Message
+- 에러 메시지 필드 추가
+
 #### CarName
 - 5자 이하의 입력이 아닐 경우, IllegalArgumentException 및 메시지 출력
 
 #### Postition
 - int 값의 position 필드를 가진다.
 - 다른 Postition과 비교 가능하다.
+- position 값을 증가시킬 수 있다.
+
+
+#### CarStatus
+- Enum 으로, MOVE , STOP 값 가짐
+
+#### CarMoveCondition
+- 자동차가 움직이게 되는 로직
+- CarStatus로 리턴함
 
 #### Car
 - CarName을 가진다. (이름)
@@ -42,9 +54,11 @@
 
 
 ## 구현 기능 목록
-- [ ] Car 구현
-      >> CarName 구현
-      >> Postition 구현
+- [X] Car 구현
+      - CarName 구현
+      - Position 구현
+      - CarStatus 구현
+      - CarMoveCondition 구현
 - [ ] Cars 구현
 - [ ] InputUtils 구현
 - [ ] OutputUtils 구현
